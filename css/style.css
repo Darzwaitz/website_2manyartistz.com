@@ -1,0 +1,307 @@
+*{
+	margin : 0;
+    border :0;
+    padding: 0;
+}
+
+#container{
+	
+	width : 90%;
+	height:auto ;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 12px;
+	margin-bottom : 14px;
+	/* background-color: black; */
+	
+}
+.rg-image-wrapper{
+	position:relative;
+	padding:20px 30px;
+	background:transparent url(../images-2/bckGRD-3.png) repeat top left;
+	
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	min-height:20px;
+}
+.rg-image{
+	position:relative;
+	text-align:center;
+	line-height:0px;
+}
+.rg-image img{
+	max-height:100%;
+	max-width:100%;
+}
+.rg-image-nav a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	background:#000 url(../images-2/nav-green.png) no-repeat -20% 50%;
+	width:28px;
+	height:100%;
+	text-indent:-9000px;
+	cursor:pointer;
+	opacity:0.3;
+	outline:none;
+	-moz-border-radius: 10px 0px 0px 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+	border-radius: 10px 0px 0px 10px;
+}
+.rg-image-nav a.rg-image-nav-next{
+	right:0px;
+	left:auto;
+	background-position:115% 50%;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+}
+.rg-image-nav a:hover{
+	opacity:0.8;
+}
+.rg-caption {
+	text-align:center;
+	margin-top:15px;
+	position:relative;
+}
+
+/* put pic descriptionz here-showz under pic*/
+
+.rg-caption p{
+	font-size:20px;
+	letter-spacing:2px;
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	line-height:16px;
+	padding:0 15px;
+	text-transform:uppercase;
+	color: black;
+}
+.rg-view{
+	height:30px;
+}
+
+/*  large & small screen view iconz */
+
+.rg-view a{
+	display:block;
+	float:right;
+	width:16px;
+	height:16px;
+	margin-right:3px;
+	background:#464646 url(..//bckGRD-3.png) no-repeat top left;
+	border:3px solid #464646;
+	opacity:0.8;
+}
+.rg-view a:hover{
+	opacity:1.0;
+}
+.rg-view a.rg-view-full{
+	background-position:0px 0px;
+}
+.rg-view a.rg-view-selected{
+	background-color:#6f6f6f;
+	border-color:#6f6f6f;
+}
+.rg-view a.rg-view-thumbs{
+	background-position:0px -16px;
+}
+.rg-loading{
+	width:46px;
+	height:46px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:#000 url(../images-2/ajax-loader.gif) no-repeat center center;
+	margin:-23px 0px 0px -23px;
+	z-index:100;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	opacity:0.7;
+}
+
+/*new settingz April 2015*/
+
+h3
+{
+vertical-align: center;
+padding-top:2px;
+font-weight: bold; 
+font-size: 160%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive; /**, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;**/
+color: green;
+}
+
+ /*page linx*/
+ 
+ .main li
+ {
+ display:inline-block;
+ 
+ }
+ 
+ /* - shtart old css page - */
+
+#container{
+  width:1320px;
+  margin:0px auto;
+}
+
+ h1 
+{
+line-height: 110%;
+vertical-align : center;
+padding-top:2px;
+font-weight: bold; 
+font-size: 400%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive; /**, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;**/
+color: green;
+}
+
+h2
+{
+vertical-align : center;
+padding-top:2px;
+font-weight: bold; 
+font-size: 200%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive; /**, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;**/
+color: green;
+}
+
+h3
+{
+vertical-align : center;
+padding-top:2px;
+font-weight: bold; 
+font-size: 160%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive; /**, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;**/
+color: green;
+}
+
+h4
+{
+
+/**vertical-align="center";**/
+padding-top:2px;
+font-weight: bold; 
+font-size: 80%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;
+color: green;
+
+}
+
+          /* Link deco --*/
+		  
+a:link {
+    color:#00f900;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:black;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#005e00;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+footer{
+vertical-align : center;
+padding-top:2px;
+font-weight: bold; 
+font-size: 100%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive; /**, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;**/
+color: #005500;
+ 
+ }
+
+ 										/**the following iz for Contakt form**/
+ 
+ #center-me-form
+ {
+ margin-left:39%
+ }
+ 
+.FeedBack
+{
+vertical-align: center;
+padding-top:2px;
+font-weight: bold; 
+font-size: 160%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive; /**, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;**/
+color: green;
+}
+
+td,th
+{
+text-align:top;
+padding-top:0px;
+}
+
+.center-me-form
+{
+text-align:right-side;
+}
+ 
+ /* - end old css page - */
+		 
+.navz{
+	position:relative;
+}
+
+          /* Link deco --*/
+		  
+a:link {
+    color:#00f900;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:black;
+    background-color:transparent;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#005e00;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+.main li
+ {
+ display:inline-block;
+ }
+ 
+ .social li{
+ /* float:right; */
+ text-align:right;
+ margin-right:35px;
+display: inline;
+ }
+ 
+footer{
+/* vertical-align:center; */
+padding-top:2px;
+font-weight: bold; 
+font-size: 100%;
+text-align: center;
+font-family: 'Shadows Into Light', cursive; /**, Courier, monospace, Arial, Helvetica, Geneva, Swiss, sans-serif;**/
+color: #005500;
+ }
+ /**above iz for gallery**/
+
+
