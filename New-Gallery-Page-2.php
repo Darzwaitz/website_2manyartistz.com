@@ -67,37 +67,34 @@
 <body>
 
 <div id="container">
-
-	 		<!--new kode-->
-			
-	<!--HeaderLogo-->		
-				
+	<!-- HEADER -->
 	<header>
-	<a href="index.php"><img class="HeaderLogoNorm" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
-	
-	<!--/Header - Logo-->	
-	<!--social media-->
-	<div class="sMedia"> 
-		<br><br><br><br><br>
-		 <a class="social" style="float:right; margin-right:35px; margin-top:-48px; 
-		 "href="https://www.facebook.com/pages/2ManyArtistz/225984214124402?ref=ts" target="blank_">
-		 <img src="images-2/logo-facebook.png" height="30"  width="30" alt="Link to Facebook" title="Link to Facebook"/></a> </li>
-					   <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-					   
-	      <a class="social" style="float:right; margin-right:35px; margin-top:-48px; "href="https://twitter.com/?lang=en" target="blank_">
-	      	<img class="social" src="images-2/Twitter-logo-green.png" height="30"  width="30" alt="Link to twitter" 
-	      	title="Link to Twitter"/></a> </li>
-		   <br><br><br><br>
-		   
-		  <a class="social" style="float:right; margin-right:35px; margin-top:-48px; "href="http://instagram.com/" target="blank_">
-		  	<img class="" src="images-2/Instagram.png" height="30"  width="30" alt="Instagram account coming soon" 
-		  	title="Instagram account coming soon"/></a> </li>
-		
-	</div>
-	</header>
-		 
-		<!--/ social media-->
-		
+			<!--HeaderLogo-->
+			<a href="#"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
+			<!--/Header - Logo-->	
+				
+			<div class="socialMedia"> <!--SOCIAL MEDIA LINX--> 
+
+				<br><br><br><br><br>
+
+				<a href="https://www.facebook.com/pages/2ManyArtistz/225984214124402?ref=ts" class="social"
+				target="blank_" >
+					<img src="images-2/logo-facebook.png" height="30"  width="30" alt="Link to Facebook" title="Link to Facebook"/>
+				</a> 
+
+				<a href="https://twitter.com/?lang=en" class="social" target="blank_">
+					<img class="social" src="images-2/Twitter-logo-green.png" height="30"  width="30" alt="Link to twitter" 
+					title="Link to Twitter"/>
+				</a> 
+
+				<a href="http://instagram.com/" class="social" target="blank_">
+					<img class="" src="images-2/Instagram.png" height="30"  width="30" alt="Instagram" title="Instagram"/>
+				</a> 
+				
+			</div> <!-- END SOCIAL MEDIA LINX -->
+		</header>
+		<!-- END HEADER -->
+
 		<!--Page Nav linkz-->
 
 	<nav role="navigation" class="main">   
