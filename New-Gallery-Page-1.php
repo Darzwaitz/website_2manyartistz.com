@@ -59,7 +59,7 @@
 	<!-- HEADER -->
 	<header>
 			<!--HeaderLogo-->
-			<a href="#"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
+			<a href="index.php"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
 			<!--/Header - Logo-->	
 				
 			<div class="socialMedia"> <!--SOCIAL MEDIA LINX--> 
@@ -92,7 +92,7 @@
 				<li><a href="index.php"><img class="navz navzLeft nav1" src="images-2/NavLink-HOME-1.png" alt="Home Page" title="Home"/></a></li>
 				
 				<li><a href="New-Gallery-Page-1.php"><img class="navz navzOther nav2"
-					src="images-2/NavLink-GALLERY-2.png"  alt="Gallery Page." title="Gallery"/></a></li>
+					src="images-2/NavLink-GALLERY-2.png"  alt="Gallery Page" title="Gallery"/></a></li>
 					
 				<li><a href="info.php"><img class="navz navzRight nav3"
 					src="images-2/NavLink-INFO-1.png"  alt="Information Page" title="Info"/></a></li>
@@ -109,9 +109,7 @@
 				<div class="content">
 					
 				<h2>2manyartistz - Gallery</h2>
-				
-				<br>
-					
+		
 					<div id="rg-gallery" class="rg-gallery">
 						<div class="rg-thumbs">
 							<!-- Carousel Thumbnail Viewer -->
@@ -164,9 +162,7 @@
 
 		<footer>
 
-			<h3>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h3>
-			
-			
+		<h4>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h4>
 
 		</footer>
 	<!--/container-->

@@ -49,7 +49,7 @@
 	<!-- HEADER -->
 	<header>
 			<!--HeaderLogo-->
-			<a href="#"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
+			<a href="index.php"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
 			<!--/Header - Logo-->	
 				
 			<div class="socialMedia"> <!--SOCIAL MEDIA LINX--> 
@@ -104,34 +104,30 @@
 		
 <div class="formy">
 	<form action="feedback.php" method="post" >
-
+		<table border="0" cellpadding="20" cellspacing="">
 		
-
-			<table border="0" cellpadding="20" cellspacing="">
-			
-				<tr><th class="formname"><label for="tswname" ><h3>Name</h3></label><input type="text" name="fullname" id="tswname" size="25" placeholder=" Whatz your name?"required></th>
-				
-				 <th class="formemailadd"><label for="tswemail"><h3>Email address</label></h3><input type="text" id="tswemail" name="email" size="25" placeholder=" Whatz your Email address?" required></th></tr>
-				  <tr>
+			<tr>
+				<th class="formname"><label for="tswname" ><h3>Name</h3></label><input type="text" name="fullname" 
+					id="tswname" size="25" placeholder=" Whatz your name?"required>
+				</th>
+				<th class="formemailadd"><label for="tswemail"><h3>Email address</label></h3>
+					<input type="text" id="tswemail" name="email" size="25" placeholder=" Whatz your Email address?" required>
+				</th>
+			</tr>
+			<tr>
 				<th class="formcommentz" colspan="2"><label for="tswcomments"><h3>Commentz</label></h3>
-				
 				<textarea rows="15" cols="45" name="comments" id="tswcomments" placeholder=" Whatz on your mind?" required></textarea>
-				 </th>
-				  </tr>
-				
-				<tr>
-				<td style="padding : 8px" colspan="3">
-				 <input type="submit" value="Click to Send!" style="color:#005e00; font-size: 180%; font-family: 'Shadows Into Light', cursive; font-weight: bold; "  class="FeedBack"  ><br>
-
-				</td>
-				</tr>
-				
-			</table>
+				</th>
+			</tr>
+			<tr>
+			<td style="padding : 8px" colspan="3">
+				<input type="submit" value="Click to Send!" class="feedBack" ><br>
+			</td>
+			</tr>
 			
-		</div>
-		
+		</table>
 	</form>
-	
+</div>	
 	<!-- / Content-->
 	</article>
 	
@@ -141,7 +137,7 @@
 
 	<footer>
 
-		<h3>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h3>
+		<h4>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h4>
 		
 	</footer>
 <!--/container-->

@@ -29,12 +29,12 @@
 </head>
 
 <body>
-
+ 
 	<div id="container">
 		<!-- HEADER -->
 		<header>
 			<!--HeaderLogo-->
-			<a href="#"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
+			<a href="index.php"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
 			<!--/Header - Logo-->	
 				
 			<div class="socialMedia"> <!--SOCIAL MEDIA LINX--> 
@@ -62,16 +62,16 @@
 		<!--Page Nav linkz-->
 				
 		<nav class="main">   
-			<li><a href="index.php"><img class="navz navzLeft nav1" 
+			<li><a href="index.php"><img class="navz" 
 				src="images-2/NavLink-HOME-2.png" alt="Home Page" title="Home"/></a></li>
 						
-			<li><a href="New-Gallery-Page-1.php"><img class="navz navzOther nav2"
+			<li><a href="New-Gallery-Page-1.php"><img class="navz"
 				src="images-2/NavLink-GALLERY-1.png"  alt="Gallery Page." title="Gallery"/></a></li> 
 							
-			<li><a href="info.php"><img class="navz navzRight nav3"
+			<li><a href="info.php"><img class="navz"
 				src="images-2/NavLink-INFO-1.png"  alt="Information Page" title="Info"/></a></li>  
 							
-			<li><a href="Contact-Uz.php"><img class="navz navzOther nav4"
+			<li><a href="Contact-Uz.php"><img class="navz"
 				src="images-2/NavLink-CONTACT-1.png"  alt="Contact Page" title="Contact us"/></a></li>
 		</nav>
 				<!-- / Page Nav linkz-->
@@ -81,20 +81,20 @@
 			<div> 
 				<h1> This iz the Home of 2manyartistz! </h1>
 			</div>
-				<br><br>
+				<!-- <br><br> -->
 			<div> 
 				<h2>Alternative Visual Creationz</h2>
 			</div>
-				<br><br>
+				<!-- <br><br> -->
 			<div> 
 				<h3>Take a look through our Gallery, and check out the info page....</h3>
 			</div>
-				<br>
+				<!-- <br> -->
 		</article>
 		
 			<!--footer-->
 		<footer>
-			<h3>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h3>
+			<h4>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h4>
 		</footer>
 	</div> <!--/container-->
 	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>

@@ -70,7 +70,7 @@
 	<!-- HEADER -->
 	<header>
 			<!--HeaderLogo-->
-			<a href="#"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
+			<a href="index.php"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
 			<!--/Header - Logo-->	
 				
 			<div class="socialMedia"> <!--SOCIAL MEDIA LINX--> 
@@ -114,14 +114,11 @@
 	</nav>
 		<!-- / Page Nav linkz-->
 
-
 	<article>
 			<div class="content">
 				
 			  <h2>2manyartistz - Gallery</h2>
-			  
-			  <br>
-				
+
 				<div id="rg-gallery" class="rg-gallery">
 					<div class="rg-thumbs">
 						<!-- Carousel Thumbnail Viewer -->

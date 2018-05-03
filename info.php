@@ -49,7 +49,7 @@
 	<!-- HEADER -->
 	<header>
 			<!--HeaderLogo-->
-			<a href="#"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
+			<a href="index.php"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
 			<!--/Header - Logo-->	
 				
 			<div class="socialMedia"> <!--SOCIAL MEDIA LINX--> 
@@ -102,12 +102,12 @@
 			<br>
 			<br>
 
-			<h2> Thank you for viziting our website!  
+			<h3> Thank you for viziting our website!  
 			<br> A collection of our work can be viewed in our <a href="New-Gallery-Page-1.php">Gallery</a>,
 			<br>and our complete collection can be viewed on our <a href="http://www.facebook.com/pages/2ManyArtistz/225984214124402?ref=ts"   target="_blank" >Facebook</a> page . . 
 			<br><br>We are based in Dublin in Ireland, and you can connect with uz through our <a href="Contact-Uz.php">Contact form</a>
 			<br>Picturez can be customized in any way you want, 
-			and can be posted to any address on the Planet !</h2>
+			and can be posted to any address on the Planet !</h3>
 
 			<!-- / Content-->
 	</article>
@@ -118,7 +118,7 @@
 
 	<footer>
 
-		<h3>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h3>
+		<h4>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h4>
 		
 
 	</footer>
