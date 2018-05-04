@@ -34,34 +34,35 @@
 		<!-- HEADER -->
 		<header>
 			<!--HeaderLogo-->
-			<a href="index.php"><img class="HeaderLogo" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" /></a>
+			<!-- <div class="headerLogoDiv"> -->
+				<a href="index.php" class="headerLogo" >
+					<img class="headerLogoImage" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" />
+				</a>
+			<!-- </div> -->
 			<!--/Header - Logo-->	
 				
-			<div class="socialMedia"> <!--SOCIAL MEDIA LINX--> 
+			<div class="socialMedia"><!-- SOCIAL MEDIA LINX--> 
 
-				<br><br><br><br><br>
-
-				<a href="https://www.facebook.com/pages/2ManyArtistz/225984214124402?ref=ts" class="social"
-				target="blank_" >
-					<img src="images-2/logo-facebook.png" height="30"  width="30" alt="Link to Facebook" title="Link to Facebook"/>
+				<a href="https://www.facebook.com/pages/2ManyArtistz/225984214124402?ref=ts" class="social" target="blank_" >
+					<img src="images-2/logo-facebook.png" alt="Link to Facebook" title="Link to Facebook"/>
 				</a> 
 
-				<a href="https://twitter.com/?lang=en" class="social" target="blank_">
-					<img class="social" src="images-2/Twitter-logo-green.png" height="30"  width="30" alt="Link to twitter" 
-					title="Link to Twitter"/>
+				<a href="https://twitter.com/?lang=en" class="social"   target="blank_">
+					<img src="images-2/Twitter-logo-green.png" alt="Link to twitter" 
+					 title="Link to Twitter"/>
 				</a> 
 
 				<a href="http://instagram.com/" class="social" target="blank_">
-					<img class="" src="images-2/Instagram.png" height="30"  width="30" alt="Instagram" title="Instagram"/>
+					<img src="images-2/Instagram.png" alt="Instagram" title="Instagram"/>
 				</a> 
 				
-			</div> <!-- END SOCIAL MEDIA LINX -->
+			</div><!--  END SOCIAL MEDIA LINX -->
 		</header>
 		<!-- END HEADER -->
 
 		<!--Page Nav linkz-->
 				
-		<nav class="main">   
+		<nav class="mainNav">   
 			<li><a href="index.php"><img class="navz" 
 				src="images-2/NavLink-HOME-2.png" alt="Home Page" title="Home"/></a></li>
 						
@@ -100,7 +101,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 	<script type="text/javascript">
     $(document).ready(function() {
-	    $(".HeaderLogo").addClass("animated");
+	    $(".headerLogoImage").addClass("animated");
     });
 	</script>
 
