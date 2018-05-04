@@ -36,7 +36,7 @@
 			<!--HeaderLogo-->
 			<!-- <div class="headerLogoDiv"> -->
 				<a href="index.php" class="headerLogo" >
-					<img class="headerLogoImage" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" />
+					<img id="headerLogoImage" src="images-2/Main-logo-2many(updated-May-2015).png"  alt="2 many artists logo" title="2ma-Home" />
 				</a>
 			<!-- </div> -->
 			<!--/Header - Logo-->	
@@ -98,11 +98,12 @@
 			<h4>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h4>
 		</footer>
 	</div> <!--/container-->
-	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-	<script type="text/javascript">
-    $(document).ready(function() {
-	    $(".headerLogoImage").addClass("animated");
-    });
+
+	<script>
+		(function(){
+			document.getElementById('headerLogoImage').classList.add('animated');
+		})();
+		
 	</script>
 
 </body>
