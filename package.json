@@ -1,0 +1,22 @@
+{
+  "name": "2manyartistz-2018",
+  "version": "1.0.0",
+  "description": "This is my first production website started in 2014, which features an image gallery - The site uses jQuery and a couple of lines of php\r - [visit this website here](http://2manyartistz.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darzwaitz/website_2manyartistz.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darzwaitz/website_2manyartistz.com/issues"
+  },
+  "homepage": "https://github.com/Darzwaitz/website_2manyartistz.com#readme",
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1"
+  }
+}
