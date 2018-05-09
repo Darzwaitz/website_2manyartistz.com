@@ -9,9 +9,7 @@
 	
   <title>Gallery-2manyartistz</title>
   
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+	<link rel="stylesheet" href="css/styles.min.css" />
 
 				<!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.js">
@@ -54,7 +52,7 @@
 </head>
     
 <body>
-<div id="container">
+	<div id="container">
 		<!-- HEADER -->
 		<header>
 			<!--HeaderLogo-->
@@ -73,7 +71,7 @@
 
 				<a href="https://twitter.com/?lang=en" class="social"   target="blank_">
 					<img src="images-2/Twitter-logo-green.png" alt="Link to twitter" 
-					 title="Link to Twitter"/>
+					title="Link to Twitter"/>
 				</a> 
 
 				<a href="http://instagram.com/" class="social" target="blank_">
@@ -100,71 +98,63 @@
 				src="images-2/NavLink-CONTACT-1.png"  alt="Contact Page" title="Contact us"/></a></li>
 		</nav>
 				<!-- / Page Nav linkz-->
-	
-	<article>
-		<div class="content">
-			
-		<h2>2manyartistz - Gallery</h2>
+		
+		<article>
+			<div class="content">
+				
+			<h2>2manyartistz - Gallery</h2>
 
-			<div id="rg-gallery" class="rg-gallery">
-				<div class="rg-thumbs">
-					<!-- Carousel Thumbnail Viewer -->
-					<div class="es-carousel-wrapper">
-						<div class="es-nav">
-							<h3>This iz Album No: 1</h3><a href="New-Gallery-Page-2.php"><h3 style="color:red">Click here for the New Album - Stephenz Green Art Exhibiton</h3> </a>
-								
-							<span class="es-nav-prev">Previous</span>
-							<span class="es-nav-next">Next</span>
+				<div id="rg-gallery" class="rg-gallery">
+					<div class="rg-thumbs">
+						<!-- Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<h3>This iz Album No: 1</h3><a href="New-Gallery-Page-2.php"><h3 style="color:red">Click here for the New Album - Stephenz Green Art Exhibiton</h3> </a>
+									
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+									<li><a href="#"><img src="images-2/thumbs/skreama.jpg" data-large="images-2/skreama-big.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/borat.jpg" data-large="images-2/borat-big.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/fite-klub.jpg" data-large="images-2/fite-klub-big.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/fungi.jpg" data-large="images-2/fungi-big.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/get-one.jpg" data-large="images-2/get-one-big.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/hendrix.jpg" data-large="images-2/hendrix-big.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/jim.jpg" data-large="images-2/jim-big.jpg" alt="image07" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/nap-1.jpg" data-large="images-2/nap-1-big.jpg" alt="image08" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/pac.jpg" data-large="images-2/pac-big.jpg" alt="image09" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/PhunnyPharm.jpg" data-large="images-2/PhunnyPharm-big.jpg" alt="image10" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/poogeot.jpg" data-large="images-2/poogeot-big.jpg" alt="image11" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/real-job.jpg" data-large="images-2/real-job-big.jpg" alt="image12" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/shmokin.jpg" data-large="images-2/shmokin-big.jpg" alt="image13" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/shtik-kettle.jpg" data-large="images-2/shtik-kettle-big.jpg" alt="image14" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/StreetWize 1.jpg" data-large="images-2/StreetWize 1-big.jpg" alt="image16" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/TEKNO.jpg" data-large="images-2/TEKNO-big.jpg" alt="image17" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/Tiz-tha-season.jpg" data-large="images-2/Tiz-tha-season-big.jpg" alt="image18" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/Tyler Worhol.jpg" data-large="images-2/Tyler Worhol-big.jpg" alt="image19" data-description="" /></a></li>
+									<li><a href="#"><img src="images-2/thumbs/Us-and-them.jpg" data-large="images-2/Us-and-them-big.jpg" alt="image20" data-description="" /></a></li>
+							</div>
 						</div>
-						<div class="es-carousel">
-							<ul>
-								<li><a href="#"><img src="images-2/thumbs/skreama.jpg" data-large="images-2/skreama-big.jpg" alt="image01" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/borat.jpg" data-large="images-2/borat-big.jpg" alt="image02" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/fite-klub.jpg" data-large="images-2/fite-klub-big.jpg" alt="image03" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/fungi.jpg" data-large="images-2/fungi-big.jpg" alt="image04" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/get-one.jpg" data-large="images-2/get-one-big.jpg" alt="image05" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/hendrix.jpg" data-large="images-2/hendrix-big.jpg" alt="image06" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/jim.jpg" data-large="images-2/jim-big.jpg" alt="image07" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/nap-1.jpg" data-large="images-2/nap-1-big.jpg" alt="image08" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/pac.jpg" data-large="images-2/pac-big.jpg" alt="image09" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/PhunnyPharm.jpg" data-large="images-2/PhunnyPharm-big.jpg" alt="image10" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/poogeot.jpg" data-large="images-2/poogeot-big.jpg" alt="image11" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/real-job.jpg" data-large="images-2/real-job-big.jpg" alt="image12" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/shmokin.jpg" data-large="images-2/shmokin-big.jpg" alt="image13" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/shtik-kettle.jpg" data-large="images-2/shtik-kettle-big.jpg" alt="image14" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/StreetWize 1.jpg" data-large="images-2/StreetWize 1-big.jpg" alt="image16" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/TEKNO.jpg" data-large="images-2/TEKNO-big.jpg" alt="image17" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/Tiz-tha-season.jpg" data-large="images-2/Tiz-tha-season-big.jpg" alt="image18" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/Tyler Worhol.jpg" data-large="images-2/Tyler Worhol-big.jpg" alt="image19" data-description="" /></a></li>
-								<li><a href="#"><img src="images-2/thumbs/Us-and-them.jpg" data-large="images-2/Us-and-them-big.jpg" alt="image20" data-description="" /></a></li>
-						</div>
-					</div>
-					<!-- End Carousel Thumbnail Viewer -->
-				</div><!-- rg-thumbs -->
-			</div><!-- rg-gallery -->
-			
-		</div> <!-- end content -->
-	</article>		
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-			<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
-			<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-			<script type="text/javascript" src="js/jquery.elastislide.js"></script>
-			<script type="text/javascript" src="js/gallery.js"></script>
-			
-			<!-- / content -->
-
-			<!-- FOOTER -->
+						<!-- End Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+				
+			</div> <!-- end content -->
+		</article>		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/scripts.min.js"></script>
+				
+		<!-- / content -->
+		<!-- FOOTER -->
 
 		<footer>
-
 			<h4>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h4>
-
 		</footer>
-	<!--/container-->
+		<!--/container-->
 	</div>
-
 </body>
-
 </html>
 
 

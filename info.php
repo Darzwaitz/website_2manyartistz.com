@@ -10,10 +10,7 @@
 
   <title>Info - 2manyArtistz</title>
   
-  		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
-		
+  <link rel="stylesheet" href="css/styles.min.css" />
 
 				<!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.js">
@@ -80,27 +77,19 @@
 				
 				<!--Content-->
 	<article>
+			<h3> Thank you for viziting our website!  
+			<br> A collection of our work can be viewed in our <a href="New-Gallery-Page-1.php">Gallery</a>,
+			<br>and our complete collection can be viewed on our <a href="http://www.facebook.com/pages/2ManyArtistz/225984214124402?ref=ts"   target="_blank" >Facebook</a> page . . 
+			<br><br>We are based in Dublin in Ireland, and you can connect with uz through our <a href="Contact-Uz.php">Contact form</a>
+			<br>Picturez can be customized in any way you want, 
+			and can be posted to any address on the Planet !</h3>
 
-
-				<h3> Thank you for viziting our website!  
-				<br> A collection of our work can be viewed in our <a href="New-Gallery-Page-1.php">Gallery</a>,
-				<br>and our complete collection can be viewed on our <a href="http://www.facebook.com/pages/2ManyArtistz/225984214124402?ref=ts"   target="_blank" >Facebook</a> page . . 
-				<br><br>We are based in Dublin in Ireland, and you can connect with uz through our <a href="Contact-Uz.php">Contact form</a>
-				<br>Picturez can be customized in any way you want, 
-				and can be posted to any address on the Planet !</h3>
-
-				<!-- / Content-->
-		</article>
-			
+			<!-- / Content-->
+	</article>
 		<br>
-
 			<!-- FOOTER -->
-
 		<footer>
-
 			<h4>&copy; 2014 - <?php echo date('Y');  ?> Darz K</h4>
-			
-
 		</footer>
 	<!--/container-->
 	</div>

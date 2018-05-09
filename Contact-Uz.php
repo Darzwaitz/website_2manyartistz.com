@@ -10,10 +10,7 @@
 
   <title>Contact Us - 2manyArtistz</title>
   
-  		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
-		
+  <link rel="stylesheet" href="css/styles.min.css" />
 
 				<!--[if lt IE 9]>
 			<script src="js/html5shiv-printshiv.js">

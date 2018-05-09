@@ -6,9 +6,7 @@
 		 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
 		
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+        <link rel="stylesheet" href="css/styles.min.css" />
 
 		
 		<!--<link rel="stylesheet" type="text/css" href="2ma-MAIN.css">-->
@@ -138,15 +136,12 @@
 					
 				</div> <!-- end content -->
 		</article>	
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-			<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
-			<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-			<script type="text/javascript" src="js/jquery.elastislide.js"></script>
-			<script type="text/javascript" src="js/gallery.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/scripts.min.js"></script>
 			
-			<!-- / content -->
+		<!-- / content -->
 
-			<!-- FOOTER -->
+		<!-- FOOTER -->
 
 		<footer>
 
